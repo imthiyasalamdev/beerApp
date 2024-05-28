@@ -1,8 +1,14 @@
-# React + Vite
+beerApp
+This is a small React application that fetches and displays data from the Sample APIs for beers of type ale. The application presents the data in a visually appealing card format with images and includes search functionality to filter the beers by name.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Fetch Data: Utilizes Axios to fetch data from the Sample APIs.
+Display Data: Shows beer data in card format with images, names, and descriptions.
+Search Functionality: Allows users to search for beers by name.
+Responsive Design: Ensures a great user experience on both desktop and mobile devices.
+Clean Code: Adheres to standard practices for maintainable and scalable code.
+Technologies Used
+React: For building the user interface.
+Axios: For making HTTP requests to the API.
+Bootstrap: For styling the application and making it responsive.
+Vite: For bundling and running the development server.
